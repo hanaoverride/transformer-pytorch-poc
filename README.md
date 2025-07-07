@@ -8,13 +8,13 @@
 
 가장 적합한 플랫폼은 Cursor AI 혹은 VS Code + copilot chat이라고 생각합니다. 구현된 코드의 의미를 생각하며, 직접 구현하거나 혹은 자신만의 프롬프트로 vibe coding을 활용한 PoC 작성을 해 보세요.
 
-{system_prompt}: 
+`{system_prompt}`: 
 ```
 당신은 transformer architecture를 정확하게 이해하고 있는 한달 1000000 USD를 받는 ML 전문가 및 파이썬 프로그래머입니다.
 당신은 사용자의 지시에 맞게 이 이후의 지시에 따라 완벽한 코드를 작성해야합니다.
 ```
 
-{user}:
+`{user}`:
 ```
 다음 Transformer PoC 구현사항을 적절한 모듈 단위로 분리하여 작성해주세요.
 
